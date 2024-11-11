@@ -1,4 +1,78 @@
 this is ccss filew
 this is casico repositories 
 respositories
+->Git is a Version Control System (or) Source Code Management System
+-->Git is used to track the files
+-->It will maintain the multiple versions of the same file
+-->It will allow collabaration between the developers while developing the code
+-->It will keeps the records of the changes on the code by the developers
+-->It will allows to know who made the changes & when
+-->It will allows you to revert any changes
+-->In Git developers will store the code in a location known as Repo/Repository,that is    nothing but a folder to store the code.
+-->It is a Platform-Independent Tool
+-->It is free & open-source
+-->It will handle larger projects efficiently
+-->It is written on "C" programming Language
+-->It came in to the market on the year 2005
+-->A version Control System will manage the changes to documents,computer programs,large    websites & other collection of information.
+------------------------------------------------------------------
+Types of Version Control System:
+--------------------------------
+-->The different types of version control system are as follows:
 
+         1)Local
+
+         2)Centralized
+
+         3)Distributed
+
+------------------------------------------------------------------
+Installation of Git Tool:
+-------------------------
+In windows Machine:
+-------------------
+
+ goto ---------->google
+                   |
+              search for "git" download
+                   |
+              select the first link for Git official website
+                   |
+              Then select the "downloads" for windows
+                   |
+              Then click download
+                   |
+       After downloading the git,click the setup file to install
+                   |
+ After installing the git in windows,will get with a git command prompt known as "git bash"
+                   |
+To check the version of git,open command prompt & use the command "git -v"
+
+==================
+In Linux Machine:
+-----------------
+-->here we can use a package manager command to install the git as follows:
+
+                    #sudo yum install git
+
+                            (or)
+
+                    #sudo apt install git
+
+--->After installation of git,to check the version we can use command as follows:
+
+                    #git -v 
+------------------------------------------------------------------------------------------
+Initialisation of "git" in the Project Folder:
+----------------------------------------------
+step1:
+------
+-->create the project folder like "Project1" in any location like "c" Drive in the local    windows machine
+-->create simple html page like "index.html" in the project folder
+
+step2:
+------
+-->Initialisation of "git" in the project folder
+-->To initialise the git in the project folder we can use the following command
+
+                              git init
